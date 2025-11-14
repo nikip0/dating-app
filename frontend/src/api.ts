@@ -1,7 +1,9 @@
 import axios from 'axios';
 import type { ChatMessage, SimulationResults, PhotoVerification } from './types';
 
-const API_BASE_URL = import.meta.env.PROD ? '/api' : 'http://localhost:3001/api';
+const API_BASE_URL = import.meta.env.PROD 
+  ? 'https://dating-app-production-223f.up.railway.app/api' 
+  : 'http://localhost:3001/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
