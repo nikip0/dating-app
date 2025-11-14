@@ -83,4 +83,3 @@ const styles: Record<string, React.CSSProperties> = {
 };
 
 export default App;
-Enter the port your app is listening on
