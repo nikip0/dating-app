@@ -1,1 +1,1 @@
-web: gunicorn server:app
+web: cd backend && npm start
